@@ -1,0 +1,14 @@
+Open the terminal in the ./src/ directory the type the following commands in the terminal itself:
+
+To compile: gcc main.c list_processes.c terminate_process.c change_priority.c save_processes.c -o task_manager -lpsapi -mconsole
+
+To run: ./task_manager
+
+Structure:
+
+/task_manager
+    ├──> list_processes.c
+    ├──> terminate_process.c
+    ├──> change_priority.c
+    ├──> save_processes.c
+    └──> main.c
